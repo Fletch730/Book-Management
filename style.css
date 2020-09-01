@@ -1,0 +1,47 @@
+body {background: 
+  url("https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80")
+  no-repeat ;
+  background-size: cover;}
+
+
+  .sty{
+    background-color: bisque;
+    padding-left: 10px;
+    width:95%;
+  
+  
+  
+  }
+
+
+
+
+input[type=text] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+input[type=number] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+  
+}
+
+
+
+
+
+
+  
+
+  textarea {
+    resize: none;
+  }
