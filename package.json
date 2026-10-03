@@ -1,0 +1,17 @@
+{
+    "name": "book-management",
+    "private": true,
+    "version": "1.0.0",
+    "workspaces": ["apps/*", "packages/*"],
+    "scripts": {
+      "dev": "pnpm --filter=apps/web dev",
+      "build": "pnpm --filter=apps/web build",
+      "test": "pnpm --recursive test",
+      "lint": "pnpm --recursive lint"
+    },
+    "devDependencies": {
+      "eslint": "^8.50.0",
+      "prettier": "^3.0.0",
+      "typescript": "^5.3.0"
+    }
+  }
